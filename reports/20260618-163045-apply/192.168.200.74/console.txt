@@ -1,0 +1,105 @@
+Warning: Permanently added '192.168.200.74' (ED25519) to the list of known hosts.
+
+=== KISA 점검·조치 스크립트 v1.0.0 ===
+  host        : localhost.localdomain
+  OS          : Rocky Linux 10.1 (Red Quartz)  (family=rocky10)
+  mode        : apply
+  report      : /kisa-audit/report.html
+  audit.conf  : loaded (/kisa-audit/config/audit.conf)
+
+E-01: 새 포트 2202 적용 + 기존 22 제거(sshd·방화벽). ⚠️ 'systemctl restart sshd' 후 2202 로그인 검증 전까지 현재 세션 끊지 말 것 — 22 fallback 없음
+E-01   SSH 포트 변경 (확장)                               [중]  BEFORE:취약   >> applied    >>  AFTER:양호 
+E-02   SELinux 모드 관리 (확장)                           [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+E-03   방화벽 허용 service (확장)                         [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+E-04   방화벽 허용 port (확장)                            [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-01   root 계정 원격 접속 제한                           [상]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-02   비밀번호 관리정책 설정                             [상]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-03   계정 잠금 임계값 설정                              [상]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-04   비밀번호 파일 보호                                 [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-05   root 이외의 UID가 ‘0’ 금지                         [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-06   사용자 계정 su 기능 제한                           [상]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-07   불필요한 계정 제거                                 [하]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-08   관리자 그룹에 최소한의 계정 포함                   [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-09   계정이 존재하지 않는 GID 금지                      [하]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-10   동일한 UID 금지                                    [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-11   사용자 shell 점검                                  [하]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-12   세션 종료 시간 설정                                [하]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-13   안전한 비밀번호 암호화 알고리즘 사용               [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-14   root 홈, 패스 디렉터리 권한 및 패스 설정           [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-15   파일 및 디렉터리 소유자 설정                       [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-16   /etc/passwd 파일 소유자 및 권한 설정               [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-17   시스템 시작 스크립트 권한 설정                     [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-18   /etc/shadow 파일 소유자 및 권한 설정               [상]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-19   /etc/hosts 파일 소유자 및 권한 설정                [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-20   /etc/(x)inetd.conf 파일 소유자 및 권한 설정        [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-21   /etc/(r)syslog.conf 파일 소유자 및 권한 설정       [상]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-22   /etc/services 파일 소유자 및 권한 설정             [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-23   SUID, SGID, Sticky bit 설정 파일 점검              [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-24   사용자, 시스템 환경변수 파일 소유자 및 권한 설정   [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-25   world writable 파일 점검                           [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-26   /dev에 존재하지 않는 device 파일 점검              [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-27   $HOME/.rhosts, hosts.equiv 사용 금지               [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-28: ALLOWED_HOSTS 미설정
+  audit.conf 의 ALLOWED_HOSTS 에 허용할 IP/CIDR 을 쉼표로 구분해 입력 후 재실행.
+  예) ALLOWED_HOSTS="192.168.1.0/24,10.0.0.5"
+  설정 없이 자동 조치 시 관리자 접속 차단 위험 있음.
+  Rocky 9/10: tcp_wrappers 제거됨. firewalld rich rule 사용 권고.
+U-28   접속 IP 및 포트 제한                               [상]  BEFORE:취약   >> manual     >>  AFTER:취약   수동 조치 필요
+U-29   hosts.lpd 파일 소유자 및 권한 설정                 [하]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-30   UMASK 설정 관리                                    [중]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-31   홈디렉토리 소유자 및 권한 설정                     [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-32   홈 디렉토리로 지정한 디렉토리의 존재 관리          [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-33   숨겨진 파일 및 디렉토리 검색 및 제거               [하]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-34   Finger 서비스 비활성화                             [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-35   공유 서비스에 대한 익명 접근 제한 설정             [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-36   r 계열 서비스 비활성화                             [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-37   crontab 설정파일 권한 설정 미흡                    [상]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-38   DoS 공격에 취약한 서비스 비활성화                  [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-39   불필요한 NFS 서비스 비활성화                       [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-40   NFS 접근 통제                                      [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-41   불필요한 automountd 제거                           [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-42   불필요한 RPC 서비스 비활성화                       [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-43   NIS, NIS+ 점검                                     [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-44   tftp, talk 서비스 비활성화                         [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-45   메일 서비스 버전 점검                              [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-46   일반 사용자의 메일 서비스 실행 방지                [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-47   스팸 메일 릴레이 제한                              [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-48   expn, vrfy 명령어 제한                             [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-49   DNS 보안 버전 패치                                 [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-50   DNS ZoneTransfer 설정                              [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-51   DNS 서비스의 취약한 동적 업데이트 설정 금지        [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-52   Telnet 서비스 비활성화                             [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-53   FTP 서비스 정보 노출 제한                          [하]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-54   암호화되지 않는 FTP 서비스 비활성화                [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-55   FTP 계정 shell 제한                                [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-56   FTP 서비스 접근 제어 설정                          [하]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-57   Ftpusers 파일 설정                                 [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-58   불필요한 SNMP 서비스 구동 점검                     [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-59   안전한 SNMP 버전 사용                              [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-60   SNMP Community String 복잡성 설정                  [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-61   SNMP Access Control 설정                           [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-62   로그인 시 경고 메시지 설정                         [하]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-63   sudo 명령어 접근 관리                              [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-64   주기적 보안 패치 및 벤더 권고사항 적용             [상]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-65   NTP 및 시각 동기화 설정                            [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+U-66   정책에 따른 시스템 로깅 설정                       [중]  BEFORE:취약   >> applied    >>  AFTER:양호 
+U-67   로그 디렉터리 소유자 및 권한 설정                  [중]  BEFORE:양호   >> skipped    >>  AFTER:양호 
+
+============================================================
+  KISA 점검 결과 요약   host=localhost.localdomain   os=rocky10
+  mode=apply
+============================================================
+  [KISA 표준 U-01~U-67]  항목수 : 67
+  [점검 전] 양호: 55   취약: 12
+  [조치 후] 양호: 66   취약: 1
+  자동 조치 완료 : 11    이미 양호(skip): 55    수동 조치 필요 : 1    조치 실패 : 0
+------------------------------------------------------------
+  [확장 E-01~ — KISA 범위 외]  항목수 : 4
+  [점검 전] 양호: 3   취약: 1
+  [조치 후] 양호: 4   취약: 0
+  자동 조치 완료 : 1    이미 양호(skip): 3    수동 조치 필요 : 0    조치 실패 : 0
+============================================================
+
+  Report  : /kisa-audit/report.html
+
+롤백이 필요하면: ./kisa-audit.sh rollback  (시스템 전수 *.kisa.bak 스캔 후 복원)

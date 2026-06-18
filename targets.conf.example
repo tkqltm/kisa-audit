@@ -1,0 +1,24 @@
+# kisa-audit deploy.sh 대상 서버 목록.
+#
+# 사용:
+#   1) 본 파일을 'targets.conf' 로 복사
+#        cp targets.conf.example targets.conf
+#   2) 아래 형식으로 점검 대상 정보를 입력 (한 줄에 하나)
+#   3) ./deploy.sh check 또는 ./deploy.sh apply 실행
+#
+# 형식: [아이피] [포트] [계정] [비밀번호]
+#   - host     : 대상 서버의 IP, hostname, 또는 IP 대역 범위 (예: 192.168.200.70-240)
+#   - port     : SSH 포트 (기본 22)
+#   - user     : 점검 계정 (root 권한 필요)
+#   - password : 비밀번호 (sshpass 로 사용. 공백 포함 시 따옴표 사용 불가 — 별도 인증 방식 권장)
+#
+# 보안 주의:
+#   - targets.conf 는 git 등 소스관리에 커밋하지 말 것 (.gitignore 권장).
+#   - 가능하면 SSH 키 기반 인증으로 전환하고 password 컬럼은 임의 placeholder 사용.
+#
+# 예시 (실제 값으로 교체):
+# [아이피]       [포트] [계정] [비밀번호]
+# 10.0.0.11      22   root  CHANGE_ME
+# 10.0.0.12      22   root  CHANGE_ME
+# 192.168.200.70-240 22 root rootroot  (70번부터 240번까지 범위 자동 대상 추가)
+# 10.0.0.13      2022 secadmin CHANGE_ME

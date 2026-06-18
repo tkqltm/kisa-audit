@@ -23,11 +23,7 @@
 #   ./kisa-audit.sh apply                  : 취약 항목 자동 조치 + report.html
 #   ./kisa-audit.sh rollback               : 시스템 전수 *.kisa.bak 스캔 후 원복
 #   ./kisa-audit.sh help                   : 도움말
-#
 # 추가 옵션:
-#   --yes / -y              : 대화형 prompt 생략 (자동화)
-#   --quiet                 : 요약만 출력
-#   --verbose               : 상세 로그 출력
 #   --only U-01,E-02,...    : 지정 항목만
 #   --skip U-07,U-08        : 지정 항목 제외
 #
@@ -259,17 +255,8 @@ export KISA_SNMP_COMMUNITY="${KISA_SNMP_COMMUNITY:-${SNMP_COMMUNITY:-}}"
 # ---------- CLI parsing ----------
 CMD="${1:-help}"; shift || true
 
-KISA_YES=0
-export KISA_QUIET=0
-export KISA_VERBOSE=0
-export KISA_DRY_RUN=0
-
 while (( $# )); do
     case "$1" in
-        --yes|-y)      KISA_YES=1 ;;
-        --quiet)       export KISA_QUIET=1 ;;
-        --verbose)     export KISA_VERBOSE=1 ;;
-        --dry-run)     export KISA_DRY_RUN=1 ;;
         --only)        shift; ONLY_ITEMS="${1:-}" ;;
         --skip)        shift; SKIP_ITEMS="${1:-}" ;;
         *)
@@ -364,14 +351,7 @@ cmd_rollback() {
 
 case "$CMD" in
     check)       cmd_check_or_apply check ;;
-    apply)       
-        if (( KISA_DRY_RUN )); then
-            log_info "[DRY-RUN] 조치 예정 내용만 조회합니다. (시스템 변경 없음)"
-            cmd_check_or_apply check
-        else
-            cmd_check_or_apply apply
-        fi
-        ;;
+    apply)       cmd_check_or_apply apply ;;
     rollback)    cmd_rollback ;;
     help|-h|--help|"") usage ;;
     *)           log_error "알 수 없는 명령: $CMD"; usage; exit 2 ;;

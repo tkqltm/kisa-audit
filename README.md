@@ -93,12 +93,8 @@ ls reports/
 ```
 ./kisa-audit.sh check|apply|rollback [OPTIONS]
 
-  --yes, -y         대화형 프롬프트 자동 승인
-  --quiet           요약만 출력
-  --verbose         상세 로그 출력
   --only U-01,E-02  지정 항목만 실행
   --skip U-07,U-08  지정 항목 제외
-  --dry-run         변경 예정 내용만 출력 (apply 미수행)
 ```
 
 ---

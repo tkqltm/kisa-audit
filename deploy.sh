@@ -268,7 +268,7 @@ push_one() {
 run_one() {
     local host="$1" port="$2" user="$3" pw="$4" mode="$5" savebase="$6"; shift 6
     log "→ $mode on $host  (args: ${*:-none})"
-    local cmd="cd $REMOTE_DIR && ./kisa-audit.sh $mode --yes $* 2>&1"
+    local cmd="cd $REMOTE_DIR && ./kisa-audit.sh $mode $* 2>&1"
     local out rc=0
     out=$(_ssh "$host" "$port" "$user" "$pw" "$cmd" 2>&1) || rc=$?
     if (( rc == 255 || rc == 5 || rc == 6 )); then

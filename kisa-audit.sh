@@ -262,12 +262,14 @@ CMD="${1:-help}"; shift || true
 KISA_YES=0
 export KISA_QUIET=0
 export KISA_VERBOSE=0
+export KISA_DRY_RUN=0
 
 while (( $# )); do
     case "$1" in
         --yes|-y)      KISA_YES=1 ;;
         --quiet)       export KISA_QUIET=1 ;;
         --verbose)     export KISA_VERBOSE=1 ;;
+        --dry-run)     export KISA_DRY_RUN=1 ;;
         --only)        shift; ONLY_ITEMS="${1:-}" ;;
         --skip)        shift; SKIP_ITEMS="${1:-}" ;;
         *)
@@ -362,7 +364,14 @@ cmd_rollback() {
 
 case "$CMD" in
     check)       cmd_check_or_apply check ;;
-    apply)       cmd_check_or_apply apply ;;
+    apply)       
+        if (( KISA_DRY_RUN )); then
+            log_info "[DRY-RUN] 조치 예정 내용만 조회합니다. (시스템 변경 없음)"
+            cmd_check_or_apply check
+        else
+            cmd_check_or_apply apply
+        fi
+        ;;
     rollback)    cmd_rollback ;;
     help|-h|--help|"") usage ;;
     *)           log_error "알 수 없는 명령: $CMD"; usage; exit 2 ;;

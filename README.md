@@ -235,7 +235,7 @@ kisa-audit/
 
 | 항목 | 요구사항 |
 |------|----------|
-| **OS** | Rocky Linux 8/9/10, RHEL 8/9, CentOS 7/8 |
+| **OS** | Rocky Linux 8/9/10, RHEL 8/9/10, CentOS 7/8, AlmaLinux 8/9/10 |
 | **Shell** | bash 4.0+ |
 | **권한** | root (또는 sudo 권한 계정) |
 | **의존성 (로컬)** | `sshpass`, `python3` (deploy.sh 사용 시) |

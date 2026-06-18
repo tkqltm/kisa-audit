@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-63: sudo 명령어 접근 관리 (중요도: 중)
 # KISA 가이드: /etc/sudoers 소유자 root, 권한 640 이하.
 #   /etc/sudoers.d/00-kisa-sudo drop-in 으로 wheel 그룹(또는 SUDOERS_ADMIN_GROUP)에

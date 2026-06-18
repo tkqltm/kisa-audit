@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-62: 로그인 시 경고 메시지 설정 (중요도: 하)
 # KISA 가이드: /etc/issue, /etc/issue.net, /etc/motd 에 경고 메시지 설정.
 #   SSH Banner 를 /etc/issue.net 으로 지정.

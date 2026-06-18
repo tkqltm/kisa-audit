@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-40: NFS 접근 통제 (중요도: 상)
 # KISA 가이드: NFS_ALLOWED_NETWORKS 지정 시 /etc/exports 에 허용 네트워크만 기재.
 #              /etc/exports 소유자 root, 권한 644 이하.

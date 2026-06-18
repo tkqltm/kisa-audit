@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-04: 비밀번호 파일 보호 (중요도: 상)
 # KISA 가이드: /etc/passwd 두 번째 필드가 'x' (shadow 비밀번호 사용)
 #

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-41: 불필요한 automountd 제거 (중요도: 상)
 # KISA 가이드: autofs.service(automountd) 비활성화.
 #

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-24: 사용자, 시스템 환경변수 파일 소유자 및 권한 설정 (중요도: 상)
 # KISA 가이드: 시스템 공용 환경파일 및 각 사용자 홈 디렉터리 내 환경변수 파일의
 #             소유자 및 other 쓰기 권한 점검

@@ -7,7 +7,7 @@
 *Automated security audit & remediation tool for KISA Critical Infrastructure Unix/Linux servers*
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](./VERSION)
-[![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](./LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](./LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Rocky%20Linux%20%7C%20RHEL%20%7C%20CentOS-informational?style=flat-square)](https://rockylinux.org/)
 [![Shell](https://img.shields.io/badge/shell-bash-green?style=flat-square)](https://www.gnu.org/software/bash/)
 [![Checks](https://img.shields.io/badge/checks-U--01~U--67%20%2B%20E--01~E--04-orange?style=flat-square)](#-점검-항목)
@@ -326,8 +326,7 @@ echo "192.168.1.10-20  22  root  password" > targets.conf
 
 ### 📄 License
 
-Copyright (c) 2026 정하늘 (Ha-Neul Jung) &lt;ahanaoal@gmail.com&gt;  
-All rights reserved. See [LICENSE](./LICENSE) for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ---
 

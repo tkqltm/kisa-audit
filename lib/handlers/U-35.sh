@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-35: 공유 서비스에 대한 익명 접근 제한 (중요도: 상)
 # KISA 가이드: FTP(vsftpd/proftpd) 익명 접근 비활성화, Samba guest 접근 제한.
 #

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-53: FTP 서비스 정보 노출 제한 (중요도: 하)
 # KISA 가이드: vsFTP ftpd_banner 설정으로 버전 정보 노출 차단.
 #   no_anon_password=YES 도 함께 설정.

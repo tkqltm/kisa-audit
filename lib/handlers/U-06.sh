@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-06: 사용자 계정 su 기능 제한 (중요도: 상)
 # KISA 가이드: su 명령어를 wheel 그룹에 속한 사용자만 사용하도록 제한
 #

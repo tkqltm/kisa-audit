@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-37: crontab 설정파일 권한 설정 미흡 (중요도: 상)
 # KISA 가이드: cron/at 관련 파일·디렉터리 권한을 root 소유·제한 권한으로 설정.
 #

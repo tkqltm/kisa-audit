@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-33: 숨겨진 파일 및 디렉토리 검색 및 제거 (중요도: 하)
 # KISA 가이드: 숨겨진 파일·디렉터리 중 의심스러운 항목 탐지
 #

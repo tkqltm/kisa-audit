@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-52: Telnet 서비스 비활성화 (중요도: 중)
 # KISA 가이드: telnet 평문 전송 위험 → telnet-server 패키지/서비스 비활성화.
 #

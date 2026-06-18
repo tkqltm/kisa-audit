@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-56: FTP 서비스 접근 제어 설정 (중요도: 하)
 # KISA 가이드: vsftpd userlist/tcp_wrappers 기반 접근 제어 적용.
 #

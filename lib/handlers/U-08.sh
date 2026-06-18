@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-08: 관리자 그룹에 최소한의 계정 포함 (중요도: 중)
 # KISA 가이드: root 그룹(GID=0)에 불필요한 계정이 없어야 함
 #

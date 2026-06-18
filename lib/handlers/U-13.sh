@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-13: 안전한 비밀번호 암호화 알고리즘 사용 (중요도: 중)
 # KISA 가이드: SHA-256($5$) 또는 SHA-512($6$) 이상 알고리즘 사용
 #

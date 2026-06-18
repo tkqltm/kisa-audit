@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-28: 접속 IP 및 포트 제한 (중요도: 상)
 # KISA 가이드: 허용할 호스트에 대한 IP 및 포트 제한 설정 여부 점검·조치
 #

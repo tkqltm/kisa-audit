@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-03: 계정 잠금 임계값 설정 (중요도: 상)
 # KISA 가이드: 로그인 실패 N회(≤10) 이후 계정 잠금, 잠금 해제 대기 시간 설정
 #

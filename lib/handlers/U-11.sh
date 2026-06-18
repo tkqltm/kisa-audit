@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-11: 사용자 shell 점검 (중요도: 하)
 # KISA 가이드: 로그인이 불필요한 계정에 /bin/false 또는 /sbin/nologin 쉘 부여 여부
 #

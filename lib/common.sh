@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # KISA Audit - common utilities (logging, backup, atomic edit, rollback execution)
 # Sourced by kisa-audit.sh and handlers. Do not execute directly.
 #

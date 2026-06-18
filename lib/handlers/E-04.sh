@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # E-04 (확장): firewalld 허용 port/protocol 추가 (KISA U-01~U-67 범위 밖, 실운영 설정)
 #
 # 환경변수:

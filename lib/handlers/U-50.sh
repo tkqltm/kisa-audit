@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-50: DNS Zone Transfer 설정 (중요도: 상)
 # KISA 가이드: Secondary Name Server 에만 Zone Transfer 허용.
 #

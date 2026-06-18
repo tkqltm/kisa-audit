@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-39: 불필요한 NFS 서비스 비활성화 (중요도: 상)
 # KISA 가이드: NFS_ALLOWED_NETWORKS 가 비어 있으면 NFS 서버 불필요 → disable+mask.
 #              NFS_ALLOWED_NETWORKS 지정 시 → U-40 에서 접근 통제.

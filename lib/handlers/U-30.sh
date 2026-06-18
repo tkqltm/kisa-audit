@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-30: UMASK 설정 관리 (중요도: 중)
 # KISA 가이드: 시스템 UMASK 값이 022 이상 설정 여부 점검·조치
 #

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # KISA Audit - render single report.html into the invocation directory.
 #
 # 입력:  $KISA_TMP_DIR/items.jsonl  (run_handler 가 누적)

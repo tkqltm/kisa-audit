@@ -4,12 +4,8 @@
 #  kisa-audit — KISA 주요정보통신기반시설 Unix 서버 취약점 점검·조치 도구
 #
 #  Copyright (c) 2026 정하늘 (Ha-Neul Jung) <ahanaoal@gmail.com>
-#  All rights reserved.
-#
-#  본 소프트웨어 및 관련 파일(handlers / lib / config / tools)에 대한
-#  저작권은 제작자 정하늘 <ahanaoal@gmail.com> 에게 있습니다.
-#  무단 복제·수정·재배포·역공학(reverse engineering) 을 금지합니다.
-#  허가 없이 변경된 파일로 실행할 경우 무결성 검증 실패로 즉시 중단됩니다.
+#  This software is released under the MIT License.
+#  See the LICENSE file for details.
 # ─────────────────────────────────────────────────────────────────────────
 #
 # kisa-audit.sh — KISA 주요정보통신기반시설 Unix 서버 취약점(U-01~U-67) 점검·조치·롤백 원샷 스크립트

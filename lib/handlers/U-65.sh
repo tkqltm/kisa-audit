@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-65: NTP 및 시각 동기화 설정 (중요도: 중)
 # KISA 가이드: chronyd 가 활성화되어 있고, 승인된 NTP 서버와 동기화 중임을 확인.
 #

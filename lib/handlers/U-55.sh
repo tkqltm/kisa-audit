@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-55: FTP 계정 shell 제한 (중요도: 중)
 # KISA 가이드: /etc/passwd 의 ftp 계정 shell 을 /sbin/nologin 으로 변경.
 #

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-34: Finger 서비스 비활성화 (중요도: 상)
 # KISA 가이드: Finger 서비스는 원격에서 사용자 정보를 조회할 수 있어 비활성화 필요.
 #

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-49: DNS 보안 버전 패치 (중요도: 상)
 # KISA 가이드: BIND 최신 버전 사용 및 주기적 보안 패치 여부 확인.
 #

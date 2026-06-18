@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-31: 홈 디렉토리 소유자 및 권한 설정 (중요도: 중)
 # KISA 가이드: 홈 디렉터리 소유자가 해당 계정이고, other 쓰기 권한 제거
 #

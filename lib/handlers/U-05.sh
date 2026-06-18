@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-05: root 이외의 UID=0 금지 (중요도: 상)
 # KISA 가이드: /etc/passwd 에서 UID=0 계정이 root 외에 존재하면 취약
 #

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 """KISA Audit — report.json → report.html 변환기.
 
 사용:

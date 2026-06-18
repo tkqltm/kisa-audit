@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-36: r 계열 서비스 비활성화 (중요도: 상)
 # KISA 가이드: rsh, rlogin, rexec 등 r-command 서비스 비활성화.
 #

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-42: 불필요한 RPC 서비스 비활성화 (중요도: 상)
 # KISA 가이드: rpc.cmsd, rpc.ttdbserverd, sadmind, rusersd, walld, sprayd, rstatd,
 #              rpc.nisd, rexd, rpc.pcnfsd, rpc.statd, rpc.ypupdated, rpc.rquotad,

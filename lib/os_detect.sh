@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # KISA Audit - OS detection. Sets OS_FAMILY ∈ {rocky8, rocky9, rocky10}
 # Sourced by kisa-audit.sh.
 

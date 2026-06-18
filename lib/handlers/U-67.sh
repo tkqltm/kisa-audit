@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-67: 로그 디렉터리 소유자 및 권한 설정 (중요도: 중)
 # KISA 가이드: /var/log/ 내 주요 로그 파일의 소유자=root, 권한 ≤ 644.
 #

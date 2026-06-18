@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-59: 안전한 SNMP 버전 사용 (중요도: 상)
 # KISA 가이드: SNMPv3 강제, v1/v2c 설정 제거.
 #

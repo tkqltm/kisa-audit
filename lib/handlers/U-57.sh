@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-57: Ftpusers 파일 설정 (중요도: 중)
 # KISA 가이드: /etc/vsftpd/ftpusers 또는 /etc/vsftpd/user_list 에 root 포함.
 #

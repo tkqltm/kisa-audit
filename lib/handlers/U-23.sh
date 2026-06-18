@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-23: SUID, SGID, Sticky bit 설정 파일 점검 (중요도: 상)
 # KISA 가이드: root 소유 SUID/SGID 파일 중 시스템 필수 목록 외 불필요한 것 탐지
 #

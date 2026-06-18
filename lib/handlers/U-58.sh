@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-58: 불필요한 SNMP 서비스 구동 점검 (중요도: 중)
 # KISA 가이드: SNMP 서비스 사용 여부 점검, 불필요 시 비활성화.
 #

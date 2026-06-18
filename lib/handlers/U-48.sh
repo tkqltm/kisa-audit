@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-48: SMTP expn·vrfy 명령어 제한 (중요도: 중)
 # KISA 가이드: SMTP 서비스의 expn, vrfy 명령어를 통한 계정 정보 노출 방지.
 #

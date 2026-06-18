@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-26: /dev에 존재하지 않는 device 파일 점검 (중요도: 상)
 # KISA 가이드: /dev 디렉터리 내 일반 파일(type f) 존재 여부 점검
 #

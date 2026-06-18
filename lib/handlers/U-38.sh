@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-38: DoS 공격에 취약한 서비스 비활성화 (중요도: 상)
 # KISA 가이드: echo(7), discard(9), daytime(13), chargen(19) 서비스 비활성화.
 #

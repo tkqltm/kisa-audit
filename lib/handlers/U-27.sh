@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-27: $HOME/.rhosts, hosts.equiv 사용 금지 (중요도: 상)
 # KISA 가이드: r-command 인증 우회 파일 제거
 #

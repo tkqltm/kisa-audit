@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-64: 주기적 보안 패치 및 벤더 권고사항 적용 (중요도: 상)
 # KISA 가이드: 최신 보안 패치가 주기적으로 적용되고 있는지 점검한다.
 #

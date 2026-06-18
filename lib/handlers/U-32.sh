@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-32: 홈 디렉토리로 지정한 디렉토리의 존재 관리 (중요도: 중)
 # KISA 가이드: /etc/passwd 에 설정된 홈 디렉터리가 실제 존재하는지 점검
 #

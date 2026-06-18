@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-19: /etc/hosts 파일 소유자 및 권한 설정 (중요도: 상)
 # 카테고리: 파일 및 디렉토리 관리
 #

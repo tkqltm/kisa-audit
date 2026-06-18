@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-46: 일반 사용자의 메일 서비스 실행 방지 (중요도: 상)
 # KISA 가이드: SMTP 서비스에서 일반 사용자의 큐 조작·설정 조회 방지.
 #

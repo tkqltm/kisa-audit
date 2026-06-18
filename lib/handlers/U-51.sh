@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-51: DNS 서비스의 취약한 동적 업데이트 설정 금지 (중요도: 중)
 # KISA 가이드: named.conf 의 zone 블록에 allow-update { none; }; 강제.
 #

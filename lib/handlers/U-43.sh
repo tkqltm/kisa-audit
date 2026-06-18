@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-43: NIS, NIS+ 점검 (중요도: 상)
 # KISA 가이드: NIS 서비스(ypserv, ypbind 등) 비활성화 여부 점검.
 #

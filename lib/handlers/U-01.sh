@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-01: root 계정 원격 접속 제한 (중요도: 상)
 # KISA 가이드: /etc/ssh/sshd_config 의 PermitRootLogin = no.
 #

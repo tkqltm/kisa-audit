@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-10: 동일한 UID 금지 (중요도: 중)
 # KISA 가이드: /etc/passwd 에서 동일한 UID 를 사용하는 계정이 없어야 함
 #

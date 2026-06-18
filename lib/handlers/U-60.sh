@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-60: SNMP Community String 복잡성 설정 (중요도: 중)
 # KISA 가이드: Community String 기본값(public/private) 사용 금지,
 #   복잡도 기준: 영문+숫자 10자 이상 또는 영문+숫자+특수문자 8자 이상.

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # deploy.sh — targets.conf 에 등록된 Rocky 서버에 kisa-audit 배포·실행·report.html 회수.
 #
 # 사용법:

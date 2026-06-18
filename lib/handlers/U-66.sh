@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-66: 정책에 따른 시스템 로깅 설정 (중요도: 중)
 # KISA 가이드: rsyslog 서비스 활성화 + 필수 로그 규칙 6개 존재 확인.
 #

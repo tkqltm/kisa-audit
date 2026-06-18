@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-29: hosts.lpd 파일 소유자 및 권한 설정 (중요도: 하)
 # KISA 가이드: /etc/hosts.lpd 파일 제거 또는 root 소유·600 이하 권한 설정
 #

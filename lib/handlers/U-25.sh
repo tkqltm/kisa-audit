@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-25: world writable 파일 점검 (중요도: 상)
 # KISA 가이드: world writable 일반 파일 탐지 및 디렉터리 sticky bit 미설정 탐지
 #

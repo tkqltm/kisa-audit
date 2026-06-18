@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-47: 스팸 메일 릴레이 제한 (중요도: 상)
 # KISA 가이드: SMTP 서버의 릴레이 기능 제한.
 #

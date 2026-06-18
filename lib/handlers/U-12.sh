@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — All rights reserved. Unauthorized modification prohibited.
+# Copyright (c) 2026 정하늘 <ahanaoal@gmail.com> — Licensed under the MIT License.
 # U-12: 세션 종료 시간 설정 (중요도: 하)
 # KISA 가이드: TMOUT=600(10분) 이하 설정 — /etc/profile
 #
